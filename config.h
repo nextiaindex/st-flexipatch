@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Space Mono:pixelsize=16:antialias=true:autohint=true";
+static char *font = "Space Mono:pixelsize=15:antialias=true:autohint=true";
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {
@@ -272,7 +272,7 @@ static unsigned int cursorshape = 2;
  * Default columns and rows numbers
  */
 
-static unsigned int cols = 66;
+static unsigned int cols = 67;
 static unsigned int rows = 17;
 
 #if ANYGEOMETRY_PATCH
