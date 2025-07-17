@@ -9,7 +9,7 @@ static char *font = "Space Mono:pixelsize=15:antialias=true:autohint=true";
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {
-	"SpaceMono Nerd Font:pixelsize=15:antialias=true:autohint=true"
+	"SpaceMono Nerd Font Mono:pixelsize=15:antialias=true:autohint=true"
 };
 #endif // FONT2_PATCH
 
