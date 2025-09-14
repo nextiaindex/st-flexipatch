@@ -5,11 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Iosevka Custom:pixelsize=15:antialias=true:autohint=true";
+static char *font = "Space Mono:pixelsize=15:antialias=true:autohint=true";
 #if FONT2_PATCH
 /* Spare fonts */
 static char *font2[] = {
-	"JetBrainsMono Nerd Font Mono:pixelsize=15:antialias=true:autohint=true",
+	"SpaceMono Nerd Font Mono:pixelsize=15:antialias=true:autohint=true",
 };
 #endif // FONT2_PATCH
 
