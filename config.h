@@ -186,32 +186,32 @@ char *xdndescchar = " !\"#$&'()*;<>?[\\]^`{|}~";
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#171b24",
-	"#ed8274",
-	"#87d96c",
-	"#facc6e",
-	"#6dcbfa",
-	"#dabafa",
-	"#90e1c6",
-	"#c7c7c7",
+	"#252530",
+	"#d8647e",
+	"#7fa563",
+	"#f3be7c",
+	"#6e94b2",
+	"#bb9dbd",
+	"#aeaed1",
+	"#cdcdcd",
 
 	/* 8 bright colors */
-	"#686868",
-	"#f28779",
-	"#d5ff80",
-	"#ffd173",
-	"#73d0ff",
-	"#dfbfff",
-	"#96e6cb",
-	"#ffffff",
+	"#606079",
+	"#e08398",
+	"#99b782",
+	"#f5cb96",
+	"#8ba9c1",
+	"#c9b1ca",
+	"#bebeda",
+	"#d7d7d7",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#f28779", /* 256 -> cursor */
-	"#686868", /* 257 -> rev cursor*/
-	"#1f2430", /* 258 -> bg */
-	"#cccac2", /* 259 -> fg */
+	"#cdcdcd", /* 256 -> cursor */
+	"#cdcdcd", /* 257 -> rev cursor*/
+	"#141415", /* 258 -> bg */
+	"#cdcdcd", /* 259 -> fg */
 };
 
 
@@ -272,8 +272,8 @@ static unsigned int cursorshape = 2;
  * Default columns and rows numbers
  */
 
-static unsigned int cols = 68;
-static unsigned int rows = 18;
+static unsigned int cols = 67;
+static unsigned int rows = 17;
 
 #if ANYGEOMETRY_PATCH
 /*
